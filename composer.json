@@ -1,0 +1,18 @@
+{
+  "name": "company/phalcon-app",
+  "type": "project",
+  "require": {
+    "php": "^8.5",
+    "vlucas/phpdotenv": "^5.6",
+    "monolog/monolog": "^3.8",
+    "ext-phalcon": "^5.16",
+    "robmorgan/phinx": "^0.16.11",
+    "stripe/stripe-php": "^20.2",
+    "symfony/var-dumper": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}

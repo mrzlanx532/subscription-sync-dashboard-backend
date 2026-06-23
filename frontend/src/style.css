@@ -1,0 +1,79 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #081019 0%, #0a1019 36%, #090d14 100%);
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+#app {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-height: 100vh;
+    padding: 28px;
+}
+
+#screen-cabinet {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.cabinet-layout {
+    display: block;
+    position: relative;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.page {
+    margin-top: 16px;
+    padding: 16px;
+}
+
+.cabinet-bg {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.orb-a {
+    width: 360px;
+    height: 360px;
+    top: -60px;
+    left: -70px;
+    background: rgba(124, 195, 255, 0.28);
+}
+
+.orb-b {
+    width: 420px;
+    height: 420px;
+    top: 18%;
+    right: -120px;
+    background: rgba(142, 166, 255, 0.24);
+}
+
+.orb-c {
+    width: 340px;
+    height: 340px;
+    bottom: -80px;
+    left: 25%;
+    background: rgba(73, 214, 151, 0.18);
+}
+
+.orb {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(80px);
+    opacity: 0.34;
+}

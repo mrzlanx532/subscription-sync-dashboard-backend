@@ -1,0 +1,6 @@
+.composer
+.bash_history
+storage/*
+vendor
+.idea
+.env
